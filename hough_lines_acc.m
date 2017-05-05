@@ -4,13 +4,6 @@ function [H, theta, rho] = hough_lines_acc(BW, varargin)
     % BW: Binary (black and white) image containing edge pixels
     % RhoResolution (optional): Difference between successive rho values, in pixels
     % Theta (optional): Vector of theta values to use, in degrees
-    %
-    % Please see the Matlab documentation for hough():
-    % http://www.mathworks.com/help/images/ref/hough.html
-    % Your code should imitate the Matlab implementation.
-    %
-    % Pay close attention to the coordinate system specified in the assignment.
-    % Note: Rows of H should correspond to values of rho, columns those of theta.
 
     %% Parse input arguments
     p = inputParser();
