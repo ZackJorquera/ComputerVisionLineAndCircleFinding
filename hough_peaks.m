@@ -3,10 +3,6 @@ function peaks = hough_peaks(H, varargin)
     %
     % Threshold (optional): Threshold at which values of H are considered to be peaks
     % NHoodSize (optional): Size of the suppression neighborhood, [M N]
-    %
-    % Please see the Matlab documentation for houghpeaks():
-    % http://www.mathworks.com/help/images/ref/houghpeaks.html
-    % Your code should imitate the matlab implementation.
 
     %% Parse input arguments
     p = inputParser;
