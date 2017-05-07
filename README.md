@@ -1,4 +1,4 @@
-# Computer Vision; correlation, edges and lines
+# Computer Vision; edges and lines
 By: Zackary T. Jorquera,
 May 5, 2017
 
