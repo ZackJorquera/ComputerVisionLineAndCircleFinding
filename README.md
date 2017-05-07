@@ -14,6 +14,13 @@ This all works fine and all except when the bin size is not one. Because the bin
 
 Now that we are done with lines we can move to circles and other shapes. In some ways finding a circle is easier because when finding a circle each point on the circle is the radius away from the center. Thus, no geometric math is needed and the instead of finding every possible line that a point can make you only need to find every point radius away from the circle. This is done with: ```[a b] = [int32(x - (radius * cos(theta)))    int32(y + (radius * sind(theta)))]```  where ‘a’ and ‘b’ are the x and y positions of the point radius away from the edge pixel. Note that bin sizes can be changed, although because a and b represent individual pixels on the image it is unadvised to do so as it skips over pixels. Finding peaks uses the same method of finding the most voted for bins on the hough space, except instead of sinusoids intersecting, the circle for every edge point intersect (IMG-13). When drawing the circle on the image it takes the peaks and draws a circle from its radius around the point (a,b) (IMG-14).
 
+![alt text](https://github.com/ZackJorquera/ComputerVisionLineAndCircleFinding/blob/master/ImagesForReadme/1.jpg "Electromagnetic Spectrum")
+![alt text](https://github.com/ZackJorquera/ComputerVisionLineAndCircleFinding/blob/master/ImagesForReadme/2.jpg "Electromagnetic Spectrum")
+![alt text](https://github.com/ZackJorquera/ComputerVisionLineAndCircleFinding/blob/master/ImagesForReadme/3.jpg "Electromagnetic Spectrum")
+![alt text](https://github.com/ZackJorquera/ComputerVisionLineAndCircleFinding/blob/master/ImagesForReadme/4.jpg "Electromagnetic Spectrum")
+![alt text](https://github.com/ZackJorquera/ComputerVisionLineAndCircleFinding/blob/master/ImagesForReadme/5.jpg "Electromagnetic Spectrum")
+![alt text](https://github.com/ZackJorquera/ComputerVisionLineAndCircleFinding/blob/master/ImagesForReadme/6.jpg "Electromagnetic Spectrum")
+
 
 # Acknowledgement: 
 This was created for my junior year high school LA research project.
