@@ -2,6 +2,8 @@
 By: Zackary T. Jorquera,
 May 5, 2017
 
+This was apart of a bigger write up that I made, but this is the only notable section that was worth putting on my github page.
+
 # Polar representation of a line[2]
 The geometric equation for lines is different for use in the hough space (what the hough space is is in the hough section). A line in most math classes is written with the equation y = mx + b where b is the offset (or y-intercept, its all the same thing) and m is the slope. Using hough space the the polar representation of a line is used, which is defined by theta and rho instead of m and b (IMG-3[2]). Using this representation everything is relative to the origin point at (0,0) at the top left point in the image (In computer science the origin is at the top left where x goes to the right and y goes down). Theta is the angle between the east direction and the perpendicular line from the origin to the line being represented. ‘Rho’ is the length of the perpendicular line. Why this would ever matter is in combination with hough space where it is easier to calculate all possible lines from a point. This topic will be expanded in later in the Hough section along with how hough space can be used to identify lines or circles.
 
