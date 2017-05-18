@@ -1,4 +1,4 @@
-# Computer Vision; edges and lines
+# Computer Vision; lines and circles
 By: Zackary T. Jorquera,
 May 5, 2017
 
